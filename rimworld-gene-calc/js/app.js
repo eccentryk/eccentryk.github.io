@@ -5,3 +5,8 @@ function init() {
 
     $( "body" ).append( "<p>Hello, testing js</p>" );
 }
+
+$(document).ready(function(){
+    //init
+    init();
+});
