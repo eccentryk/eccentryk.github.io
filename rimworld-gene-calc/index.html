@@ -1,10 +1,192 @@
 <!DOCTYPE html>
 <html>
-     <head>
-          <title>RimWorld Gene Calc</title>
-          <script src="js/app.js"></script>
-     </head>
-     <body onload="init()">
-          Hello World
-     </body>
+<head>
+	<title>RimWorld Gene Calc</title>
+	<link href="https://cdn.jsdelivr.net/npm/vuetify@3.0.7/dist/vuetify.min.css" rel="stylesheet">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui">
+</head>
+<body>
+	<div id="app">
+		<v-app>
+			<v-main>
+				<v-card class="bg-blue-grey-darken-4 mx-auto px-4" width="960">
+					<v-container class="ma-0 pa-0">
+						<v-row justify="center">
+							<v-col>
+								<v-card class="h-screen mx-auto overflow-y-auto" max-width="380">
+									<v-item-group
+										v-model="selection"
+										multiple
+										selected-class="bg-primary">
+										<v-row 
+											v-for="(item, i) in items"
+											:key="i"
+											 no-gutters >
+											<v-item v-slot="{ isSelected, selectedClass, toggle }" :value="item">
+												<v-card :class="[selectedClass, 'px-0']" @click="toggle" height="80" width="380">
+													<v-row no-gutters>
+														<v-col cols="2">          
+															<v-img
+																:src="`images/${item.img}`"
+																height="64" class="text-right pa-2">
+															</v-img> 
+														</v-col>
+														<v-col cols="6">          
+															<strong v-html="item.name"></strong>
+														</v-col>
+														<v-col cols="1">          
+															<v-img
+																:src="`images/20px-Metabolism.png`"
+																height="20"
+																class="text-right pa-2">
+															</v-img> 
+														</v-col>
+														<v-col cols="1">          
+															<strong v-html="item.metabolism"></strong>
+														</v-col>
+														<v-col cols="1">          
+															<v-img
+																:src="`images/20px-Complexity.png`"
+																height="20"
+																class="text-right pa-2">
+															</v-img> 
+														</v-col>
+														<v-col cols="1">          
+															<strong v-html="item.complexity"></strong>
+														</v-col>
+													</v-row>
+												</v-card>
+											</v-item>
+										</v-row>
+									</v-item-group>
+								</v-card>
+							</v-col>
+							<v-col>
+								<v-row justify="end">
+									<v-col cols="4">
+										<v-btn @click="unselectAll()"><strong>Clear</strong></v-btn>
+									</v-col>
+								</v-row>
+								<v-row>
+									<v-col>          
+										<v-card>
+											<v-card-title v-text="`Metabolism`"></v-card-title>
+											<v-card-text>
+												<strong>{{ sumMetabolism }}</strong>
+											</v-card-text>
+										</v-card>
+									</v-col>
+									<v-col>          
+										<v-card>
+											<v-card-title v-text="`Complexity`"></v-card-title>
+											<v-card-text>
+												<strong>{{ sumComplexity }}</strong>
+											</v-card-text>
+										</v-card>
+									</v-col>
+								</v-row>
+							</v-col>
+						</v-row>
+					</v-container>
+				</v-card>
+			</v-main>
+		</v-app>
+	</div>
+
+  <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vuetify@3.0.7/dist/vuetify.js"></script>
+  <script>
+const { createApp } = Vue
+const { createVuetify } = Vuetify
+
+var genes = [
+    {
+   "name": "Gene implanter",
+   "metabolism": 0,
+   "complexity": 3,
+   "img": "64px-Gene_XenogermReimplanter.png"
+ },
+ {
+   "name": "Perfect immunity",
+   "metabolism": 0,
+   "complexity": 3,
+   "img": "64px-Gene_PerfectImmunity.png"
+ },
+ {
+   "name": "Non-senescent",
+   "metabolism": 0,
+   "complexity": 3,
+   "img": "64px-Gene_NonSenescent.png"
+ },
+ {
+   "name": "Scarless",
+   "metabolism": 0,
+   "complexity": 4,
+   "img": "64px-Gene_TotalHealing.png"
+ },
+ {
+   "name": "Ageless",
+   "metabolism": 0,
+   "complexity": 3,
+   "img": "64px-Gene_Ageless.png"
+ },
+ {
+   "name": "Deathless",
+   "metabolism": 0,
+   "complexity": 7,
+   "img": "64px-Gene_Deathless.png"
+ },
+ {
+   "name": "Archite metabolism",
+   "metabolism": 6,
+   "complexity": 6,
+   "img": "64px-Gene_ArchiteMetabolism.png"
+ },
+ {
+   "name": "Fire spew",
+   "metabolism": -2,
+   "complexity": 1,
+   "img": "64px-Gene_Firespew.png"
+ },
+ {
+   "name": "Foam spray",
+   "metabolism": -2,
+   "complexity": 1,
+   "img": "64px-Gene_FoamSpray.png"
+ }
+]
+
+const vuetify = createVuetify({
+  theme: {
+    defaultTheme: 'dark'
+  }
+})
+
+const app = createApp({
+    data() {
+      return {
+        items: genes,
+		selection: [],
+      }
+    },
+	computed: {
+    // a computed getter
+		sumComplexity() {
+		  return this.selection.reduce((a, b) => a + b.complexity, 0)
+		},
+		sumMetabolism() {
+		  return this.selection.reduce((a, b) => a + b.metabolism, 0)
+		}
+	},
+	methods: {
+		unselectAll() {
+		  while (this.selection.length > 0) {
+			this.selection.pop();
+		  }
+		}
+	}
+  })
+app.use(vuetify).mount('#app')
+  </script>
+</body>
 </html>
