@@ -1,8 +1,1202 @@
 [
-    {
-        "name":"Gene implanter",
-        "complexity":3,
-        "metabolism":0,
-        "img":"https://rimworldwiki.com/wiki/File:Gene_XenogermReimplanter.png"
-    }
+ {
+   "name": "Gene implanter",
+   "metabolism": 0,
+   "complexity": 3,
+   "img": "64px-Gene_XenogermReimplanter.png"
+ },
+ {
+   "name": "Perfect immunity",
+   "metabolism": 0,
+   "complexity": 3,
+   "img": "64px-Gene_PerfectImmunity.png"
+ },
+ {
+   "name": "Non-senescent",
+   "metabolism": 0,
+   "complexity": 3,
+   "img": "64px-Gene_NonSenescent.png"
+ },
+ {
+   "name": "Scarless",
+   "metabolism": 0,
+   "complexity": 4,
+   "img": "64px-Gene_TotalHealing.png"
+ },
+ {
+   "name": "Ageless",
+   "metabolism": 0,
+   "complexity": 3,
+   "img": "64px-Gene_Ageless.png"
+ },
+ {
+   "name": "Deathless",
+   "metabolism": 0,
+   "complexity": 7,
+   "img": "64px-Gene_Deathless.png"
+ },
+ {
+   "name": "Archite metabolism",
+   "metabolism": 6,
+   "complexity": 6,
+   "img": "64px-Gene_ArchiteMetabolism.png"
+ },
+ {
+   "name": "Fire spew",
+   "metabolism": -2,
+   "complexity": 1,
+   "img": "64px-Gene_Firespew.png"
+ },
+ {
+   "name": "Foam spray",
+   "metabolism": -2,
+   "complexity": 1,
+   "img": "64px-Gene_FoamSpray.png"
+ },
+ {
+   "name": "Animal warcall",
+   "metabolism": -2,
+   "complexity": 1,
+   "img": "64px-Gene_AnimalWarcall.png"
+ },
+ {
+   "name": "Acid spray",
+   "metabolism": -2,
+   "complexity": 1,
+   "img": "64px-Gene_AcidSpray.png"
+ },
+ {
+   "name": "Bloodfeeder",
+   "metabolism": -1,
+   "complexity": 1,
+   "img": "64px-Gene_Bloodfeeder.png"
+ },
+ {
+   "name": "Coagulate",
+   "metabolism": -1,
+   "complexity": 1,
+   "img": "64px-Gene_Coagulate.png"
+ },
+ {
+   "name": "Piercing Spine",
+   "metabolism": -1,
+   "complexity": 1,
+   "img": "64px-Gene_PiercingSpine.png"
+ },
+ {
+   "name": "Hemogenic",
+   "metabolism": 1,
+   "complexity": 1,
+   "img": "64px-Gene_Hemogenic.png"
+ },
+ {
+   "name": "Hemogen drain",
+   "metabolism": 6,
+   "complexity": 1,
+   "img": "64px-Gene_HemogenDrain.png"
+ },
+ {
+   "name": "Longjump legs",
+   "metabolism": -2,
+   "complexity": 1,
+   "img": "64px-Gene_LongJumpLegs.png"
+ },
+ {
+   "name": "Deathrest",
+   "metabolism": 6,
+   "complexity": 1,
+   "img": "64px-Gene_Deathrest.png"
+ },
+ {
+   "name": "Weak immunity",
+   "metabolism": 2,
+   "complexity": 1,
+   "img": "64px-Gene_WeakImmunity.png"
+ },
+ {
+   "name": "Strong immunity",
+   "metabolism": -1,
+   "complexity": 1,
+   "img": "64px-Gene_StrongImmunity.png"
+ },
+ {
+   "name": "Super immunity",
+   "metabolism": -2,
+   "complexity": 2,
+   "img": "64px-Gene_SuperStrongImmunity.png"
+ },
+ {
+   "name": "Slow wound healing",
+   "metabolism": 2,
+   "complexity": 1,
+   "img": "64px-Gene_WoundHealingRateSlow.png"
+ },
+ {
+   "name": "Fast wound healing",
+   "metabolism": -2,
+   "complexity": 1,
+   "img": "64px-Gene_WoundHealingRateFast.png"
+ },
+ {
+   "name": "Superfast wound healing",
+   "metabolism": -3,
+   "complexity": 1,
+   "img": "64px-Gene_WoundHealingRateSuperfast.png"
+ },
+ {
+   "name": "Superclotting",
+   "metabolism": -1,
+   "complexity": 1,
+   "img": "64px-Gene_Superclotting.png"
+ },
+ {
+   "name": "Psychically deaf",
+   "metabolism": 2,
+   "complexity": 1,
+   "img": "64px-Gene_PsychicallyDeaf.png"
+ },
+ {
+   "name": "Psychically dull",
+   "metabolism": 1,
+   "complexity": 1,
+   "img": "64px-Gene_PsychicallyDull.png"
+ },
+ {
+   "name": "Psy-sensitive",
+   "metabolism": -2,
+   "complexity": 1,
+   "img": "64px-Gene_EnhancedPsychicAbility.png"
+ },
+ {
+   "name": "Super psy-sensitive",
+   "metabolism": -5,
+   "complexity": 2,
+   "img": "64px-Gene_ExtremePsychicAbility.png"
+ },
+ {
+   "name": "Psychic bonding",
+   "metabolism": -1,
+   "complexity": 1,
+   "img": "64px-Gene_PsychicBonding.png"
+ },
+ {
+   "name": "Slow runner",
+   "metabolism": 3,
+   "complexity": 1,
+   "img": "64px-Gene_SlowMovespeed.png"
+ },
+ {
+   "name": "Fast runner",
+   "metabolism": -3,
+   "complexity": 1,
+   "img": "64px-Gene_QuickMovespeed.png"
+ },
+ {
+   "name": "Very fast runner",
+   "metabolism": -5,
+   "complexity": 1,
+   "img": "64px-Gene_VeryQuickMovespeed.png"
+ },
+ {
+   "name": "Naked speed",
+   "metabolism": 2,
+   "complexity": 1,
+   "img": "64px-Gene_NakedSpeed.png"
+ },
+ {
+   "name": "Very unhappy",
+   "metabolism": 5,
+   "complexity": 1,
+   "img": "64px-Gene_Depressive.png"
+ },
+ {
+   "name": "Unhappy",
+   "metabolism": 3,
+   "complexity": 1,
+   "img": "64px-Gene_Pessimist.png"
+ },
+ {
+   "name": "Happy",
+   "metabolism": -1,
+   "complexity": 2,
+   "img": "64px-Gene_Optimist.png"
+ },
+ {
+   "name": "Very happy",
+   "metabolism": -2,
+   "complexity": 3,
+   "img": "64px-Gene_Sanguine.png"
+ },
+ {
+   "name": "Cold weakness",
+   "metabolism": 1,
+   "complexity": 1,
+   "img": "64px-Gene_MinTemperatureSmallIncrease.png"
+ },
+ {
+   "name": "Cold tolerant",
+   "metabolism": -1,
+   "complexity": 1,
+   "img": "64px-Gene_MinTemperatureSmallDecrease.png"
+ },
+ {
+   "name": "Cold super-tolerant",
+   "metabolism": -2,
+   "complexity": 1,
+   "img": "64px-Gene_MinTemperatureLargeDecrease.png"
+ },
+ {
+   "name": "Heat weakness",
+   "metabolism": 1,
+   "complexity": 1,
+   "img": "64px-Gene_MaxTemperatureSmallDecrease.png"
+ },
+ {
+   "name": "Heat tolerant",
+   "metabolism": -1,
+   "complexity": 1,
+   "img": "64px-Gene_MaxTemperatureSmallIncrease.png"
+ },
+ {
+   "name": "Heat super-tolerant",
+   "metabolism": -2,
+   "complexity": 1,
+   "img": "64px-Gene_MaxTemperatureLargeIncrease.png"
+ },
+ {
+   "name": "Tox resistance",
+   "metabolism": -2,
+   "complexity": 1,
+   "img": "64px-Gene_PartialToxicityResistance.png"
+ },
+ {
+   "name": "Tox immunity",
+   "metabolism": -4,
+   "complexity": 2,
+   "img": "64px-Gene_TotalToxicityResistance.png"
+ },
+ {
+   "name": "Partial antitoxic lungs",
+   "metabolism": -1,
+   "complexity": 1,
+   "img": "64px-Gene_PartialPollutionResistance.png"
+ },
+ {
+   "name": "Total antitoxic lungs",
+   "metabolism": -3,
+   "complexity": 2,
+   "img": "64px-Gene_TotalPollutionResistance.png"
+ },
+ {
+   "name": "Mild UV sensitivity",
+   "metabolism": 3,
+   "complexity": 1,
+   "img": "64px-Gene_MildUVSensitivity.png"
+ },
+ {
+   "name": "Intense UV sensitivity",
+   "metabolism": 4,
+   "complexity": 2,
+   "img": "64px-Gene_IntenseUVSensitivity.png"
+ },
+ {
+   "name": "Fire resistant",
+   "metabolism": -2,
+   "complexity": 1,
+   "img": "64px-Gene_FireResistant.png"
+ },
+ {
+   "name": "Tinderskin",
+   "metabolism": 2,
+   "complexity": 1,
+   "img": "64px-Gene_FireWeakness.png"
+ },
+ {
+   "name": "Pyrophobia",
+   "metabolism": 4,
+   "complexity": 1,
+   "img": "64px-Gene_FireTerror.png"
+ },
+ {
+   "name": "Dead calm",
+   "metabolism": -1,
+   "complexity": 1,
+   "img": "64px-Gene_DeadCalm.png"
+ },
+ {
+   "name": "Aggressive",
+   "metabolism": 2,
+   "complexity": 1,
+   "img": "64px-Gene_Aggressive.png"
+ },
+ {
+   "name": "Hyper-aggressive",
+   "metabolism": 3,
+   "complexity": 1,
+   "img": "64px-Gene_HyperAggressive.png"
+ },
+ {
+   "name": "Weak melee damage",
+   "metabolism": 1,
+   "complexity": 1,
+   "img": "64px-Gene_WeakMeleeDamage.png"
+ },
+ {
+   "name": "Strong melee damage",
+   "metabolism": -2,
+   "complexity": 1,
+   "img": "64px-Gene_StrongMeleeDamage.png"
+ },
+ {
+   "name": "Violence disabled",
+   "metabolism": 3,
+   "complexity": 1,
+   "img": "64px-Gene_ViolenceDisabled.png"
+ },
+ {
+   "name": "Kind instinct",
+   "metabolism": -1,
+   "complexity": 1,
+   "img": "64px-Gene_KindInstinct.png"
+ },
+ {
+   "name": "Kill thirst",
+   "metabolism": 4,
+   "complexity": 1,
+   "img": "64px-Gene_Killthirst.png"
+ },
+ {
+   "name": "Very Sleepy",
+   "metabolism": 4,
+   "complexity": 1,
+   "img": "64px-Gene_VerySleepy.png"
+ },
+ {
+   "name": "Sleepy",
+   "metabolism": 2,
+   "complexity": 1,
+   "img": "64px-Gene_Sleepy.png"
+ },
+ {
+   "name": "Low sleep",
+   "metabolism": -4,
+   "complexity": 2,
+   "img": "64px-Gene_QuickSleeper.png"
+ },
+ {
+   "name": "Never sleep",
+   "metabolism": -6,
+   "complexity": 3,
+   "img": "64px-Gene_Neversleep.png"
+ },
+ {
+   "name": "Delicate",
+   "metabolism": 3,
+   "complexity": 1,
+   "img": "64px-Gene_Delicate.png"
+ },
+ {
+   "name": "Robust",
+   "metabolism": -2,
+   "complexity": 1,
+   "img": "64px-Gene_Tough.png"
+ },
+ {
+   "name": "Extra pain",
+   "metabolism": 2,
+   "complexity": 1,
+   "img": "64px-Gene_ExtraPain.png"
+ },
+ {
+   "name": "Reduced pain",
+   "metabolism": -1,
+   "complexity": 1,
+   "img": "64px-Gene_PainReduced.png"
+ },
+ {
+   "name": "Low libido",
+   "metabolism": 0,
+   "complexity": 1,
+   "img": "64px-Gene_LowLibido.png"
+ },
+ {
+   "name": "High libido",
+   "metabolism": 0,
+   "complexity": 1,
+   "img": "64px-Gene_HighLibido.png"
+ },
+ {
+   "name": "Sterile",
+   "metabolism": 1,
+   "complexity": 1,
+   "img": "64px-Gene_Sterile.png"
+ },
+ {
+   "name": "Fertile",
+   "metabolism": 0,
+   "complexity": 1,
+   "img": "64px-Gene_Fertile.png"
+ },
+ {
+   "name": "Very unattractive",
+   "metabolism": 2,
+   "complexity": 1,
+   "img": "64px-Gene_StaggeringlyUgly.png"
+ },
+ {
+   "name": "Unattractive",
+   "metabolism": 1,
+   "complexity": 1,
+   "img": "64px-Gene_Ugly.png"
+ },
+ {
+   "name": "Attractive",
+   "metabolism": -1,
+   "complexity": 1,
+   "img": "64px-Gene_Pretty.png"
+ },
+ {
+   "name": "Very attractive",
+   "metabolism": -2,
+   "complexity": 1,
+   "img": "64px-Gene_Beautiful.png"
+ },
+ {
+   "name": "Red eyes",
+   "metabolism": 0,
+   "complexity": 0,
+   "img": "64px-Gene_RedEyes.png"
+ },
+ {
+   "name": "Gray eyes",
+   "metabolism": 0,
+   "complexity": 0,
+   "img": "64px-Gene_GrayEyes.png"
+ },
+ {
+   "name": "No hair",
+   "metabolism": 0,
+   "complexity": 0,
+   "img": "64px-Gene_HairStyleBaldOnly.png"
+ },
+ {
+   "name": "Short-haired",
+   "metabolism": 0,
+   "complexity": 0,
+   "img": "64px-Gene_HairStyleShortOnly.png"
+ },
+ {
+   "name": "Long-haired",
+   "metabolism": 0,
+   "complexity": 0,
+   "img": "64px-Gene_HairStyleLongOnly.png"
+ },
+ {
+   "name": "Only bushy beards",
+   "metabolism": 0,
+   "complexity": 0,
+   "img": "64px-Gene_BeardStyleBushyOnly.png"
+ },
+ {
+   "name": "Beardless",
+   "metabolism": 0,
+   "complexity": 0,
+   "img": "64px-Gene_BeardStyleNone.png"
+ },
+ {
+   "name": "Unisex beards",
+   "metabolism": 0,
+   "complexity": 0,
+   "img": "64px-Gene_UnisexBeards.png"
+ },
+ {
+   "name": "Human ears",
+   "metabolism": 0,
+   "complexity": 0,
+   "img": "64px-Gene_EarHuman.png"
+ },
+ {
+   "name": "Pointed ears",
+   "metabolism": 0,
+   "complexity": 0,
+   "img": "64px-Gene_EarPointed.png"
+ },
+ {
+   "name": "Cat ears",
+   "metabolism": 0,
+   "complexity": 0,
+   "img": "64px-Gene_EarCat.png"
+ },
+ {
+   "name": "Floppy ears",
+   "metabolism": 0,
+   "complexity": 0,
+   "img": "64px-Gene_EarFloppy.png"
+ },
+ {
+   "name": "Pig ears",
+   "metabolism": 0,
+   "complexity": 0,
+   "img": "64px-Gene_EarPig.png"
+ },
+ {
+   "name": "Human nose",
+   "metabolism": 0,
+   "complexity": 0,
+   "img": "64px-Gene_NoseHuman.png"
+ },
+ {
+   "name": "Human jaw",
+   "metabolism": 0,
+   "complexity": 0,
+   "img": "64px-Gene_JawBaseline.png"
+ },
+ {
+   "name": "Heavy jaw",
+   "metabolism": 0,
+   "complexity": 0,
+   "img": "64px-Gene_JawHeavy.png"
+ },
+ {
+   "name": "Gaunt head",
+   "metabolism": 0,
+   "complexity": 0,
+   "img": "64px-Gene_GauntHead.png"
+ },
+ {
+   "name": "Heavy brow",
+   "metabolism": 0,
+   "complexity": 0,
+   "img": "64px-Gene_HeavyBrow.png"
+ },
+ {
+   "name": "Center-horn",
+   "metabolism": 0,
+   "complexity": 0,
+   "img": "64px-Gene_HeadboneCenterhorn.png"
+ },
+ {
+   "name": "Mini-horns",
+   "metabolism": 0,
+   "complexity": 0,
+   "img": "64px-Gene_HeadboneMinihorns.png"
+ },
+ {
+   "name": "Human headbone",
+   "metabolism": 0,
+   "complexity": 0,
+   "img": "64px-Gene_HeadboneHuman.png"
+ },
+ {
+   "name": "Human voice",
+   "metabolism": 0,
+   "complexity": 0,
+   "img": "64px-Gene_VoiceHuman.png"
+ },
+ {
+   "name": "Pig voice",
+   "metabolism": 0,
+   "complexity": 0,
+   "img": "64px-Gene_VoicePig.png"
+ },
+ {
+   "name": "Roar voice",
+   "metabolism": 0,
+   "complexity": 0,
+   "img": "64px-Gene_VoiceRoar.png"
+ },
+ {
+   "name": "Facial ridges",
+   "metabolism": 0,
+   "complexity": 0,
+   "img": "64px-Gene_FacialRidges.png"
+ },
+ {
+   "name": "Standard body",
+   "metabolism": 0,
+   "complexity": 0,
+   "img": "64px-Gene_BodyStandard.png"
+ },
+ {
+   "name": "Thin body",
+   "metabolism": 0,
+   "complexity": 0,
+   "img": "64px-Gene_BodyThin.png"
+ },
+ {
+   "name": "Fat body",
+   "metabolism": 0,
+   "complexity": 0,
+   "img": "64px-Gene_BodyFat.png"
+ },
+ {
+   "name": "Hulk body",
+   "metabolism": 0,
+   "complexity": 0,
+   "img": "64px-Gene_BodyHulk.png"
+ },
+ {
+   "name": "Green skin",
+   "metabolism": 0,
+   "complexity": 0,
+   "img": "64px-FanGene_SkinColor_Green.png"
+ },
+ {
+   "name": "Deep yellow skin",
+   "metabolism": 0,
+   "complexity": 0,
+   "img": "64px-FanGene_SkinColor_Yellow_Deep.png"
+ },
+ {
+   "name": "Pale yellow skin",
+   "metabolism": 0,
+   "complexity": 0,
+   "img": "64px-FanGene_SkinColor_Yellow_Pale.png"
+ },
+ {
+   "name": "Orange skin",
+   "metabolism": 0,
+   "complexity": 0,
+   "img": "64px-FanGene_SkinColor_Orange.png"
+ },
+ {
+   "name": "Deep red skin",
+   "metabolism": 0,
+   "complexity": 0,
+   "img": "64px-FanGene_SkinColor_Red_Deep.png"
+ },
+ {
+   "name": "Pale red skin",
+   "metabolism": 0,
+   "complexity": 0,
+   "img": "64px-FanGene_SkinColor_Red_Pale.png"
+ },
+ {
+   "name": "Purple skin",
+   "metabolism": 0,
+   "complexity": 0,
+   "img": "64px-FanGene_SkinColor_Purple.png"
+ },
+ {
+   "name": "Blue skin",
+   "metabolism": 0,
+   "complexity": 0,
+   "img": "64px-FanGene_SkinColor_Blue.png"
+ },
+ {
+   "name": "Sheer white skin",
+   "metabolism": 0,
+   "complexity": 0,
+   "img": "64px-FanGene_SkinColor_White.png"
+ },
+ {
+   "name": "Light gray skin",
+   "metabolism": 0,
+   "complexity": 0,
+   "img": "64px-FanGene_SkinColor_Light_Gray.png"
+ },
+ {
+   "name": "Slate gray skin",
+   "metabolism": 0,
+   "complexity": 0,
+   "img": "64px-FanGene_SkinColor_Gray.png"
+ },
+ {
+   "name": "Ink black skin",
+   "metabolism": 0,
+   "complexity": 0,
+   "img": "64px-FanGene_SkinColor_Black.png"
+ },
+ {
+   "name": "Strong stomach",
+   "metabolism": -1,
+   "complexity": 1,
+   "img": "64px-Gene_StrongStomach.png"
+ },
+ {
+   "name": "Robust digestion",
+   "metabolism": -2,
+   "complexity": 2,
+   "img": "64px-Gene_RobustDigestion.png"
+ },
+ {
+   "name": "Slow study",
+   "metabolism": 2,
+   "complexity": 1,
+   "img": "64px-Gene_SlowLearning.png"
+ },
+ {
+   "name": "Quick study",
+   "metabolism": -3,
+   "complexity": 2,
+   "img": "64px-Gene_FastLearning.png"
+ },
+ {
+   "name": "Nearsighted",
+   "metabolism": 2,
+   "complexity": 1,
+   "img": "64px-Gene_Nearsighted.png"
+ },
+ {
+   "name": "Dark vision",
+   "metabolism": -1,
+   "complexity": 1,
+   "img": "64px-Gene_Darkvision.png"
+ },
+ {
+   "name": "Inbred",
+   "metabolism": -2,
+   "complexity": 1,
+   "img": "64px-Gene_Inbred.png"
+ },
+ {
+   "name": "Mild cell instability",
+   "metabolism": 2,
+   "complexity": 1,
+   "img": "64px-Gene_MildCellInstability.png"
+ },
+ {
+   "name": "Major cell instability",
+   "metabolism": 4,
+   "complexity": 1,
+   "img": "64px-Gene_MajorCellInstability.png"
+ },
+ {
+   "name": "Grayless hair",
+   "metabolism": 0,
+   "complexity": 1,
+   "img": "64px-Gene_GreylessHair.png"
+ },
+ {
+   "name": "Human hands",
+   "metabolism": 0,
+   "complexity": 0,
+   "img": "64px-Gene_HandsHuman.png"
+ },
+ {
+   "name": "Trotter hands",
+   "metabolism": 1,
+   "complexity": 1,
+   "img": "64px-Gene_HandsTrotter.png"
+ },
+ {
+   "name": "Elongated fingers",
+   "metabolism": -1,
+   "complexity": 1,
+   "img": "64px-Gene_ElongatedFingers.png"
+ },
+ {
+   "name": "Furskin",
+   "metabolism": -1,
+   "complexity": 1,
+   "img": "64px-Gene_Furskin.png"
+ },
+ {
+   "name": "Pig nose",
+   "metabolism": 0,
+   "complexity": 0,
+   "img": "64px-Gene_NosePig.png"
+ },
+ {
+   "name": "Pollution stimulus",
+   "metabolism": -1,
+   "complexity": 1,
+   "img": "64px-Gene_PollutionRush.png"
+ },
+ {
+   "name": "Unstoppable",
+   "metabolism": -2,
+   "complexity": 1,
+   "img": "64px-Gene_Unstoppable.png"
+ },
+ {
+   "name": "Furry tail",
+   "metabolism": -1,
+   "complexity": 1,
+   "img": "64px-Gene_TailFurry.png"
+ },
+ {
+   "name": "Smooth tail",
+   "metabolism": -1,
+   "complexity": 1,
+   "img": "64px-Gene_TailSmooth.png"
+ },
+ {
+   "name": "Awful Animals",
+   "metabolism": 2,
+   "complexity": 1,
+   "img": "64px-Gene_AwfulAnimals.png"
+ },
+ {
+   "name": "Awful Artistic",
+   "metabolism": 2,
+   "complexity": 1,
+   "img": "64px-Gene_AwfulArtistic.png"
+ },
+ {
+   "name": "Awful Construction",
+   "metabolism": 2,
+   "complexity": 1,
+   "img": "64px-Gene_AwfulConstruction.png"
+ },
+ {
+   "name": "Awful Cooking",
+   "metabolism": 2,
+   "complexity": 1,
+   "img": "64px-Gene_AwfulCooking.png"
+ },
+ {
+   "name": "Awful Crafting",
+   "metabolism": 2,
+   "complexity": 1,
+   "img": "64px-Gene_AwfulCrafting.png"
+ },
+ {
+   "name": "Awful Medical",
+   "metabolism": 2,
+   "complexity": 1,
+   "img": "64px-Gene_AwfulMedical.png"
+ },
+ {
+   "name": "Awful Melee",
+   "metabolism": 2,
+   "complexity": 1,
+   "img": "64px-Gene_AwfulMelee.png"
+ },
+ {
+   "name": "Awful Mining",
+   "metabolism": 2,
+   "complexity": 1,
+   "img": "64px-Gene_AwfulMining.png"
+ },
+ {
+   "name": "Awful Intellectual",
+   "metabolism": 2,
+   "complexity": 1,
+   "img": "64px-Gene_AwfulIntellectual.png"
+ },
+ {
+   "name": "Awful Plants",
+   "metabolism": 2,
+   "complexity": 1,
+   "img": "64px-Gene_AwfulPlants.png"
+ },
+ {
+   "name": "Awful Shooting",
+   "metabolism": 2,
+   "complexity": 1,
+   "img": "64px-Gene_AwfulShooting.png"
+ },
+ {
+   "name": "Awful Social",
+   "metabolism": 2,
+   "complexity": 1,
+   "img": "64px-Gene_AwfulSocial.png"
+ },
+ {
+   "name": "Poor Animals",
+   "metabolism": 1,
+   "complexity": 1,
+   "img": "64px-Gene_PoorAnimals.png"
+ },
+ {
+   "name": "Poor Artistic",
+   "metabolism": 1,
+   "complexity": 1,
+   "img": "64px-Gene_PoorArtistic.png"
+ },
+ {
+   "name": "Poor Construction",
+   "metabolism": 1,
+   "complexity": 1,
+   "img": "64px-Gene_PoorConstruction.png"
+ },
+ {
+   "name": "Poor Cooking",
+   "metabolism": 1,
+   "complexity": 1,
+   "img": "64px-Gene_PoorCooking.png"
+ },
+ {
+   "name": "Poor Crafting",
+   "metabolism": 1,
+   "complexity": 1,
+   "img": "64px-Gene_PoorCrafting.png"
+ },
+ {
+   "name": "Poor Medical",
+   "metabolism": 1,
+   "complexity": 1,
+   "img": "64px-Gene_PoorMedical.png"
+ },
+ {
+   "name": "Poor Melee",
+   "metabolism": 1,
+   "complexity": 1,
+   "img": "64px-Gene_PoorMelee.png"
+ },
+ {
+   "name": "Poor Mining",
+   "metabolism": 1,
+   "complexity": 1,
+   "img": "64px-Gene_PoorMining.png"
+ },
+ {
+   "name": "Poor Intellectual",
+   "metabolism": 1,
+   "complexity": 1,
+   "img": "64px-Gene_PoorIntellectual.png"
+ },
+ {
+   "name": "Poor Plants",
+   "metabolism": 1,
+   "complexity": 1,
+   "img": "64px-Gene_PoorPlants.png"
+ },
+ {
+   "name": "Poor Shooting",
+   "metabolism": 1,
+   "complexity": 1,
+   "img": "64px-Gene_PoorShooting.png"
+ },
+ {
+   "name": "Poor Social",
+   "metabolism": 1,
+   "complexity": 1,
+   "img": "64px-Gene_PoorSocial.png"
+ },
+ {
+   "name": "Strong Animals",
+   "metabolism": -1,
+   "complexity": 2,
+   "img": "64px-Gene_StrongAnimals.png"
+ },
+ {
+   "name": "Strong Artistic",
+   "metabolism": -1,
+   "complexity": 2,
+   "img": "64px-Gene_StrongArtistic.png"
+ },
+ {
+   "name": "Strong Construction",
+   "metabolism": -1,
+   "complexity": 2,
+   "img": "64px-Gene_StrongConstruction.png"
+ },
+ {
+   "name": "Strong Cooking",
+   "metabolism": -1,
+   "complexity": 2,
+   "img": "64px-Gene_StrongCooking.png"
+ },
+ {
+   "name": "Strong Crafting",
+   "metabolism": -1,
+   "complexity": 2,
+   "img": "64px-Gene_StrongCrafting.png"
+ },
+ {
+   "name": "Strong Medical",
+   "metabolism": -1,
+   "complexity": 2,
+   "img": "64px-Gene_StrongMedical.png"
+ },
+ {
+   "name": "Strong Melee",
+   "metabolism": -1,
+   "complexity": 2,
+   "img": "64px-Gene_StrongMelee.png"
+ },
+ {
+   "name": "Strong Mining",
+   "metabolism": -1,
+   "complexity": 2,
+   "img": "64px-Gene_StrongMining.png"
+ },
+ {
+   "name": "Strong Intellectual",
+   "metabolism": -1,
+   "complexity": 2,
+   "img": "64px-Gene_StrongIntellectual.png"
+ },
+ {
+   "name": "Strong Plants",
+   "metabolism": -1,
+   "complexity": 2,
+   "img": "64px-Gene_StrongPlants.png"
+ },
+ {
+   "name": "Strong Shooting",
+   "metabolism": -1,
+   "complexity": 2,
+   "img": "64px-Gene_StrongShooting.png"
+ },
+ {
+   "name": "Strong Social",
+   "metabolism": -1,
+   "complexity": 2,
+   "img": "64px-Gene_StrongSocial.png"
+ },
+ {
+   "name": "Great Animals",
+   "metabolism": 2,
+   "complexity": 1,
+   "img": "64px-Gene_GreatAnimals.png"
+ },
+ {
+   "name": "Great Artistic",
+   "metabolism": 2,
+   "complexity": 1,
+   "img": "64px-Gene_GreatArtistic.png"
+ },
+ {
+   "name": "Great Construction",
+   "metabolism": 2,
+   "complexity": 1,
+   "img": "64px-Gene_GreatConstruction.png"
+ },
+ {
+   "name": "Great Cooking",
+   "metabolism": 2,
+   "complexity": 1,
+   "img": "64px-Gene_GreatCooking.png"
+ },
+ {
+   "name": "Great Crafting",
+   "metabolism": 2,
+   "complexity": 1,
+   "img": "64px-Gene_GreatCrafting.png"
+ },
+ {
+   "name": "Great Medical",
+   "metabolism": 2,
+   "complexity": 1,
+   "img": "64px-Gene_GreatMedical.png"
+ },
+ {
+   "name": "Great Melee",
+   "metabolism": 2,
+   "complexity": 1,
+   "img": "64px-Gene_GreatMelee.png"
+ },
+ {
+   "name": "Great Mining",
+   "metabolism": 2,
+   "complexity": 1,
+   "img": "64px-Gene_GreatMining.png"
+ },
+ {
+   "name": "Great Intellectual",
+   "metabolism": 2,
+   "complexity": 1,
+   "img": "64px-Gene_GreatIntellectual.png"
+ },
+ {
+   "name": "Great Plants",
+   "metabolism": 2,
+   "complexity": 1,
+   "img": "64px-Gene_GreatPlants.png"
+ },
+ {
+   "name": "Great Shooting",
+   "metabolism": 2,
+   "complexity": 1,
+   "img": "64px-Gene_GreatShooting.png"
+ },
+ {
+   "name": "Great Social",
+   "metabolism": 2,
+   "complexity": 1,
+   "img": "64px-Gene_GreatSocial.png"
+ },
+ {
+   "name": "Alcohol resistant",
+   "metabolism": -1,
+   "complexity": 1,
+   "img": "64px-AddictionResistant_Alcohol.png"
+ },
+ {
+   "name": "Smokeleaf resistant",
+   "metabolism": -1,
+   "complexity": 1,
+   "img": "64px-AddictionResistant_Smokeleaf.png"
+ },
+ {
+   "name": "Psychite resistant",
+   "metabolism": -2,
+   "complexity": 1,
+   "img": "64px-AddictionResistant_Psychite.png"
+ },
+ {
+   "name": "Go-juice resistant",
+   "metabolism": -2,
+   "complexity": 1,
+   "img": "64px-AddictionResistant_Go_Juice.png"
+ },
+ {
+   "name": "Wake-up resistant",
+   "metabolism": -2,
+   "complexity": 1,
+   "img": "64px-AddictionResistant_Wake_Up.png"
+ },
+ {
+   "name": "Alcohol impervious",
+   "metabolism": -3,
+   "complexity": 2,
+   "img": "64px-AddictionImmune_Alcohol.png"
+ },
+ {
+   "name": "Smokeleaf impervious",
+   "metabolism": -3,
+   "complexity": 2,
+   "img": "64px-AddictionImmune_Smokeleaf.png"
+ },
+ {
+   "name": "Psychite impervious",
+   "metabolism": -5,
+   "complexity": 2,
+   "img": "64px-AddictionImmune_Psychite.png"
+ },
+ {
+   "name": "Go-juice impervious",
+   "metabolism": -5,
+   "complexity": 2,
+   "img": "64px-AddictionImmune_Go_Juice.png"
+ },
+ {
+   "name": "Wake-up impervious",
+   "metabolism": -5,
+   "complexity": 2,
+   "img": "64px-AddictionImmune_Wake_Up.png"
+ },
+ {
+   "name": "Alcohol dependency",
+   "metabolism": 3,
+   "complexity": 1,
+   "img": "64px-ChemicalDependency_Alcohol.png"
+ },
+ {
+   "name": "Smokeleaf dependency",
+   "metabolism": 3,
+   "complexity": 1,
+   "img": "64px-ChemicalDependency_Smokeleaf.png"
+ },
+ {
+   "name": "Psychite dependency",
+   "metabolism": 4,
+   "complexity": 1,
+   "img": "64px-ChemicalDependency_Psychite.png"
+ },
+ {
+   "name": "Go-juice dependency",
+   "metabolism": 4,
+   "complexity": 1,
+   "img": "64px-ChemicalDependency_Go_Juice.png"
+ },
+ {
+   "name": "Wake-up dependency",
+   "metabolism": 4,
+   "complexity": 1,
+   "img": "64px-ChemicalDependency_Wake_Up.png"
+ }
 ]
