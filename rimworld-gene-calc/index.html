@@ -96,11 +96,11 @@
   <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/vuetify@3.0.7/dist/vuetify.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/requirejs@2.3.6/bin/r.min.js"></script>
-  <script>
+  <script type="module">
 const { createApp } = Vue
 const { createVuetify } = Vuetify
 
-const genes = require('./data/genes.json');
+import * as genes from './data/genes.json';
 
 const vuetify = createVuetify({
   theme: {
