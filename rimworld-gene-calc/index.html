@@ -99,7 +99,10 @@
 const { createApp } = Vue
 const { createVuetify } = Vuetify
 
-import * as genes from './data/genes.json';
+const genes = fetch("./data/genes.json")
+	.then(response => {
+   	return response.json();
+});
 
 const vuetify = createVuetify({
   theme: {
