@@ -99,62 +99,7 @@
 const { createApp } = Vue
 const { createVuetify } = Vuetify
 
-var genes = [
-    {
-   "name": "Gene implanter",
-   "metabolism": 0,
-   "complexity": 3,
-   "img": "64px-Gene_XenogermReimplanter.png"
- },
- {
-   "name": "Perfect immunity",
-   "metabolism": 0,
-   "complexity": 3,
-   "img": "64px-Gene_PerfectImmunity.png"
- },
- {
-   "name": "Non-senescent",
-   "metabolism": 0,
-   "complexity": 3,
-   "img": "64px-Gene_NonSenescent.png"
- },
- {
-   "name": "Scarless",
-   "metabolism": 0,
-   "complexity": 4,
-   "img": "64px-Gene_TotalHealing.png"
- },
- {
-   "name": "Ageless",
-   "metabolism": 0,
-   "complexity": 3,
-   "img": "64px-Gene_Ageless.png"
- },
- {
-   "name": "Deathless",
-   "metabolism": 0,
-   "complexity": 7,
-   "img": "64px-Gene_Deathless.png"
- },
- {
-   "name": "Archite metabolism",
-   "metabolism": 6,
-   "complexity": 6,
-   "img": "64px-Gene_ArchiteMetabolism.png"
- },
- {
-   "name": "Fire spew",
-   "metabolism": -2,
-   "complexity": 1,
-   "img": "64px-Gene_Firespew.png"
- },
- {
-   "name": "Foam spray",
-   "metabolism": -2,
-   "complexity": 1,
-   "img": "64px-Gene_FoamSpray.png"
- }
-]
+const genes = require("./data/genes.json");
 
 const vuetify = createVuetify({
   theme: {
