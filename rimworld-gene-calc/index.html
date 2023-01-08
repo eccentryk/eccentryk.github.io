@@ -9,11 +9,11 @@
 	<div id="app">
 		<v-app>
 			<v-main>
-				<v-card class="bg-blue-grey-darken-4 mx-auto px-4" width="960">
+				<v-card class="h-screen bg-blue-grey-darken-4 mx-auto px-4" :width="computeWidth">
 					<v-container class="ma-0 pa-0">
 						<v-row justify="center">
-							<v-col>
-								<v-card class="h-screen mx-auto overflow-y-auto" max-width="380">
+							<v-col class="d-block d-md-inline">
+								<v-card class="mx-auto overflow-y-auto" max-width="380" height="100vh">
 									<v-item-group
 										v-model="selection"
 										multiple
@@ -61,7 +61,7 @@
 									</v-item-group>
 								</v-card>
 							</v-col>
-							<v-col>
+							<v-col :order="isFirstIfMobile" class="d-block d-md-inline">
 								<v-row justify="end">
 									<v-col cols="4">
 										<v-btn @click="unselectAll()"><strong>Clear</strong></v-btn>
@@ -121,6 +121,12 @@ const app = createApp({
 		},
 		sumMetabolism() {
 		  return this.selection.reduce((a, b) => a + b.metabolism, 0)
+		},
+		isFirstIfMobile() {
+		  return this.$vuetify.display.width < 960 ? 'first' : 'last'
+		},
+		computeWidth() {
+		  return this.$vuetify.display.width < 960 ? this.$vuetify.display.width : 960
 		}
 	},
 	methods: {
