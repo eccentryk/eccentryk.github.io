@@ -4,16 +4,44 @@
 	<title>RimWorld Gene Calc</title>
 	<link href="https://cdn.jsdelivr.net/npm/vuetify@3.0.7/dist/vuetify.min.css" rel="stylesheet">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui">
+	<style>
+		html { overflow-y: auto }
+	</style>
 </head>
 <body>
 	<div id="app">
 		<v-app>
 			<v-main>
 				<v-card class="h-screen bg-blue-grey-darken-4 mx-auto px-4" :width="computeWidth">
-					<v-container class="ma-0 pa-0">
-						<v-row justify="center">
-							<v-col class="d-block d-md-inline">
-								<v-card class="mx-auto overflow-y-auto" max-width="380" height="100vh">
+					<v-container class="fill-height">
+						<v-row justify="center" class="fill-height" height="580" align="center">
+							<v-col order="first" order-md="last" class="">
+								<v-row justify="end">
+									<v-col cols="4">
+										<v-btn @click="unselectAll()"><strong>Clear</strong></v-btn>
+									</v-col>
+								</v-row>
+								<v-row>
+									<v-col>          
+										<v-card>
+											<v-card-title v-text="`Metabolism`"></v-card-title>
+											<v-card-text>
+												<strong>{{ sumMetabolism }}</strong>
+											</v-card-text>
+										</v-card>
+									</v-col>
+									<v-col>          
+										<v-card>
+											<v-card-title v-text="`Complexity`"></v-card-title>
+											<v-card-text>
+												<strong>{{ sumComplexity }}</strong>
+											</v-card-text>
+										</v-card>
+									</v-col>
+								</v-row>
+							</v-col>
+							<v-col class="pa-0 fill-height">
+								<v-card class="mx-auto overflow-y-auto" max-width="380" :height="computeHeight">
 									<v-item-group
 										v-model="selection"
 										multiple
@@ -61,31 +89,6 @@
 									</v-item-group>
 								</v-card>
 							</v-col>
-							<v-col :order="isFirstIfMobile" class="d-block d-md-inline">
-								<v-row justify="end">
-									<v-col cols="4">
-										<v-btn @click="unselectAll()"><strong>Clear</strong></v-btn>
-									</v-col>
-								</v-row>
-								<v-row>
-									<v-col>          
-										<v-card>
-											<v-card-title v-text="`Metabolism`"></v-card-title>
-											<v-card-text>
-												<strong>{{ sumMetabolism }}</strong>
-											</v-card-text>
-										</v-card>
-									</v-col>
-									<v-col>          
-										<v-card>
-											<v-card-title v-text="`Complexity`"></v-card-title>
-											<v-card-text>
-												<strong>{{ sumComplexity }}</strong>
-											</v-card-text>
-										</v-card>
-									</v-col>
-								</v-row>
-							</v-col>
 						</v-row>
 					</v-container>
 				</v-card>
@@ -122,11 +125,11 @@ const app = createApp({
 		sumMetabolism() {
 		  return this.selection.reduce((a, b) => a + b.metabolism, 0)
 		},
-		isFirstIfMobile() {
-		  return this.$vuetify.display.width < 960 ? 'first' : 'last'
-		},
 		computeWidth() {
 		  return this.$vuetify.display.width < 960 ? this.$vuetify.display.width : 960
+		},
+		computeHeight() {
+		  return this.$vuetify.display.width > 580 ? this.$vuetify.display.height : this.$vuetify.display.height-170
 		}
 	},
 	methods: {
