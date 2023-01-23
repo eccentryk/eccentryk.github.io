@@ -1039,74 +1039,74 @@
  },
  {
    "name": "Great Animals",
-   "metabolism": 2,
-   "complexity": 1,
+   "metabolism": -3,
+   "complexity": 2,
    "img": "64px-Gene_GreatAnimals.png"
  },
  {
    "name": "Great Artistic",
-   "metabolism": 2,
-   "complexity": 1,
+   "metabolism": -3,
+   "complexity": 2,
    "img": "64px-Gene_GreatArtistic.png"
  },
  {
    "name": "Great Construction",
-   "metabolism": 2,
-   "complexity": 1,
+   "metabolism": -3,
+   "complexity": 2,
    "img": "64px-Gene_GreatConstruction.png"
  },
  {
    "name": "Great Cooking",
-   "metabolism": 2,
-   "complexity": 1,
+   "metabolism": -3,
+   "complexity": 2,
    "img": "64px-Gene_GreatCooking.png"
  },
  {
    "name": "Great Crafting",
-   "metabolism": 2,
-   "complexity": 1,
+   "metabolism": -3,
+   "complexity": 2,
    "img": "64px-Gene_GreatCrafting.png"
  },
  {
    "name": "Great Medical",
-   "metabolism": 2,
-   "complexity": 1,
+   "metabolism": -3,
+   "complexity": 2,
    "img": "64px-Gene_GreatMedical.png"
  },
  {
    "name": "Great Melee",
-   "metabolism": 2,
-   "complexity": 1,
+   "metabolism": -3,
+   "complexity": 2,
    "img": "64px-Gene_GreatMelee.png"
  },
  {
    "name": "Great Mining",
-   "metabolism": 2,
-   "complexity": 1,
+   "metabolism": -3,
+   "complexity": 2,
    "img": "64px-Gene_GreatMining.png"
  },
  {
    "name": "Great Intellectual",
-   "metabolism": 2,
-   "complexity": 1,
+   "metabolism": -3,
+   "complexity": 2,
    "img": "64px-Gene_GreatIntellectual.png"
  },
  {
    "name": "Great Plants",
-   "metabolism": 2,
-   "complexity": 1,
+   "metabolism": -3,
+   "complexity": 2,
    "img": "64px-Gene_GreatPlants.png"
  },
  {
    "name": "Great Shooting",
-   "metabolism": 2,
-   "complexity": 1,
+   "metabolism": -3,
+   "complexity": 2,
    "img": "64px-Gene_GreatShooting.png"
  },
  {
    "name": "Great Social",
-   "metabolism": 2,
-   "complexity": 1,
+   "metabolism": -3,
+   "complexity": 2,
    "img": "64px-Gene_GreatSocial.png"
  },
  {
