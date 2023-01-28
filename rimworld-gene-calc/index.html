@@ -142,6 +142,10 @@ const app = createApp({
 		saveName: '',
       }
     },
+	mounted() {
+		this.savesMap = new Map(JSON.parse(localStorage.getItem('saves')));
+		this.updateSaveArrays('');
+    },
 	computed: {
     // a computed getter
 		sumComplexity() {
@@ -195,13 +199,7 @@ const app = createApp({
 			this.deleteSave(this.currentSave.title);
 		  }
 		}
-	},
-	setup() {
-      onMounted(() => {
-		this.savesMap = new Map(JSON.parse(localStorage.getItem('saves')));
-		this.updateSaveArrays('');
-      })
-    }
+	}
   })
 app.use(vuetify).mount('#app')
   </script>
