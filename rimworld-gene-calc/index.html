@@ -179,7 +179,9 @@ const app = createApp({
 		  else {
 			this.currentSave = { title: '', value: [] };
 		  }
+		  console.log('before setting this.selection');
 		  this.selection = this.currentSave.value;
+		  console.log(JSON.stringify(this.selection));
 		  this.saveName = this.currentSave.title;
 		},
 		saveGenes(save) {
