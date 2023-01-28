@@ -17,7 +17,14 @@
 						<v-row justify="center" class="fill-height" height="580" align="center">
 							<v-col order="first" order-md="last" class="">
 								<v-row justify="end">
-									<v-col cols="4">
+									<v-col cols="10">
+										<v-text-field clearable label="Save genes" variant="solo">
+											<template v-slot:append-inner>
+												<v-btn><strong>Save</strong></v-btn>
+											</template>
+										</v-text-field>
+									</v-col>
+									<v-col cols="2">
 										<v-btn @click="unselectAll()"><strong>Clear</strong></v-btn>
 									</v-col>
 								</v-row>
