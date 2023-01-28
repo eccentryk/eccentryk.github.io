@@ -201,7 +201,8 @@ const app = createApp({
 		  }
 		},
 		onSelect() {
-			this.updateSaveArrays(this.currentSave.title);
+			this.selection = this.currentSave.value;
+			this.saveName = this.currentSave.title;
 		}
 	}
   })
