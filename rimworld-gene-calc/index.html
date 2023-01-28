@@ -179,12 +179,12 @@ const app = createApp({
 		},
 		saveGenes(save) {
 		  this.savesMap.set(save, this.selection);
-		  localStorage.setItem('saves', JSON.stringify(this.savesMap));
+		  localStorage.setItem('saves', JSON.stringify(Array.from(this.savesMap.entries())));
 		  this.updateSaveArrays(save);
 		},
 		deleteSave(save) {
 		  this.savesMap.delete(save);
-		  localStorage.setItem('saves', JSON.stringify(this.savesMap));
+		  localStorage.setItem('saves', JSON.stringify(Array.from(this.savesMap.entries())));
 		  this.updateSaveArrays('');
 		},
 		onSave() {
@@ -199,7 +199,7 @@ const app = createApp({
 	setup() {
       onMounted(() => {
 		if(JSON.parse(localStorage.getItem('saves')) instanceof Map) {
-			this.savesMap = JSON.parse(localStorage.getItem('saves'));
+			this.savesMap = new Map(JSON.parse(localStorage.getItem('saves')));
 		}
 		this.updateSaveArrays('');
       })
