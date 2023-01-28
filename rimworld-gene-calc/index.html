@@ -23,6 +23,7 @@
 											label="Select"
 											:items="saves"
 											return-object
+											@update:modelValue="onSelect()"
 											variant="solo">
 										</v-select>
 									</v-col>
@@ -198,6 +199,9 @@ const app = createApp({
 		  if(this.currentSave.title) {
 			this.deleteSave(this.currentSave.title);
 		  }
+		},
+		onSelect() {
+			this.updateSaveArrays(this.currentSave.title);
 		}
 	}
   })
