@@ -198,9 +198,7 @@ const app = createApp({
 	},
 	setup() {
       onMounted(() => {
-		if(JSON.parse(localStorage.getItem('saves')) instanceof Map) {
-			this.savesMap = new Map(JSON.parse(localStorage.getItem('saves')));
-		}
+		this.savesMap = new Map(JSON.parse(localStorage.getItem('saves')));
 		this.updateSaveArrays('');
       })
     }
