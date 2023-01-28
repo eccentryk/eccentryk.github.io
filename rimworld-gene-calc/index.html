@@ -168,6 +168,12 @@ const app = createApp({
 			this.selection.pop();
 		  }
 		},
+		setCurrentSaveSelection() {
+			this.unselectAll();
+			this.currentSave.value.forEach( (element) =>{
+				this.selection.push(element);
+			});
+		},
 		updateSaveArrays(save) {
 		  this.saves = [];
 		  this.savesMap.forEach( (values,keys)=>{
@@ -179,7 +185,7 @@ const app = createApp({
 		  else {
 			this.currentSave = { title: '', value: [] };
 		  }
-		  this.selection = this.currentSave.value;
+		  this.setCurrentSaveSelection();
 		  this.saveName = this.currentSave.title;
 		},
 		saveGenes(save) {
@@ -201,7 +207,7 @@ const app = createApp({
 		  }
 		},
 		onSelect() {
-			this.selection = this.currentSave.value;
+			this.setCurrentSaveSelection();
 			this.saveName = this.currentSave.title;
 		}
 	}
