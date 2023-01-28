@@ -175,7 +175,7 @@ const app = createApp({
 			});
 		},
 		setSelectionSaveMap(save) {
-			this.savesMap.set(save, new Map());
+			this.savesMap.set(save, []);
 			this.selection.forEach( (element) =>{
 				this.savesMap.get(save).push(element);
 			});
