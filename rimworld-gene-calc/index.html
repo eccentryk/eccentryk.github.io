@@ -17,26 +17,26 @@
 						<v-row justify="center" class="fill-height" height="580" align="center">
 							<v-col order="first" order-md="last" class="">
 								<v-row>
-									<v-col class="py-1" cols="10">
+									<v-col class="py-1" cols="9">
 										<v-select
 											label="Select"
 											:items="['California', 'Colorado', 'Florida', 'Georgia', 'Texas', 'Wyoming']"
 											variant="solo">
 										</v-select>
 									</v-col>
-									<v-col class="py-1" cols="2">
+									<v-col class="py-1" cols="3">
 										<v-btn><strong>Delete</strong></v-btn>
 									</v-col>
 								</v-row>
 								<v-row>
-									<v-col class="py-1" cols="10">
+									<v-col class="py-1" cols="9">
 										<v-text-field clearable label="Save genes" variant="solo">
 											<template v-slot:append-inner>
 												<v-btn><strong>Save</strong></v-btn>
 											</template>
 										</v-text-field>
 									</v-col>
-									<v-col class="py-1" cols="2">
+									<v-col class="py-1" cols="3">
 										<v-btn @click="unselectAll()"><strong>Clear</strong></v-btn>
 									</v-col>
 								</v-row>
